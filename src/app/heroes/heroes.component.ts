@@ -6,6 +6,7 @@ import { HeroDetailComponent } from '../hero-detail/hero-detail.component';
 import { HeroService } from '../hero.service';
 import { MessageService } from '../message.service';
 import { RouterLink } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-heroes',
@@ -17,6 +18,7 @@ import { RouterLink } from '@angular/router';
     NgIf,
     HeroDetailComponent,
     RouterLink,
+    HttpClientModule,
   ],
   templateUrl: './heroes.component.html',
   styleUrl: './heroes.component.css',
